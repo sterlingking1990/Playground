@@ -33,3 +33,11 @@ span{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#bg-img{
+    background: url('../image/another_one.jpg');
+    background-repeat:no-repeat;
+    min-height: 500px;
+
+
+}
