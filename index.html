@@ -4,41 +4,108 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Personal Portfolio</title>
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<style type="text/css">
-    .bs-example{
-        margin: 20px;
-    }
-
-    .i-circle{
-    background: #ff0000;
-    color: #fff;
-    padding: 5px 20px;
-    border-radius: 50%;
-    font-size: 35px;
-    }
-</style>
+<link rel="stylesheet" href="css/style.css"/>
+<title>My portfolio website</title>
 </head>
-<body>
-<div class="bs-example">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a href="#" class="navbar-brand"><span class="i-circle">K</span></a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-                <a href="#" class="nav-item nav-link active">Home</a>
-                <a href="#" class="nav-item nav-link">About</a>
-                <a href="#" class="nav-item nav-link">Contact</a>
+<body>
+
+    <!--Navbar section-->
+
+    <div id="header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a href="#" class="navbar-brand"><span class="navbar-logo" style="font-family: pacifico,cursive;">K</span></a>
+
+                <div class="collapse navbar-collapse" id="Navbar-menu">
+                    <ul class="navbar-nav  ml-auto">
+                        <li class="navbar-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="navbar-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="navbar-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Summary-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 sm-12">
+                <div class="card" style="margin-top:100px; border: none;">
+                    <div class="card-body">
+                            <h1 class="card-title" style="text-align: center; font-family: pacifico,cursive;">Izundu Kingsley</h1>
+                            <p class="card-text">I am a software engineering student at Decagon Software Engineering Institute, Where I am being trained to become a world class software engineering professional
+                            </p>
+                            <P>An ardent proponent to problem solving systems and lover of Tech</P>
+                            <p>When am not beating my keyboard, am playing with the my dogs; classic and wacko</p>
+                            <p><span><a href="https://www.twitter.com/semantiking"><i class="fa fa-twitter"></i></a></span> <span><a href="https://www.linkedin.com/in/izundukingsleyemeka"><i class="fa fa-linkedin"></i></a></span> <span></span><a href="https://www.medium.com/izundukingsleyemeka"><i class="fa fa-medium"></i></a></span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 sm-12">
+                    <div class="card" style="border: 5px solid white;">
+                        <div class="text-center">
+                            <img class="img-fluid" style="max-width: 100%;height: auto" src="./image/mypic.jpg"/>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-</div>
+
+        <div class="container">
+            <div class="row">
+                <h1 style="text-align: center; margin:5% auto; height: 80px;">Decagon So Far! <span>
+                        <hr style="border: 5px solid #a5a5a5" /></span></h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 sm-12">
+                    <div class="card" style="border: 5px solid white;">
+                        <div class="card-img">
+                            <div class="text-center">
+                                <img class="img-fluid" src="./image/deca.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 sm-12">
+                    <div class="card" style="border: 5px solid darkslategrey;">
+                        <div class="card-content">
+                            <div class="card-body">
+                                <p style="text-align: justify; padding: 5px 10px;">I have always wanted to become a software engineer, I have been self-training in the area of computer programming
+                                    but the opportunity to get into the labour market seems so tiny, a friend sent me the information concerning Decagon recruitment and i read About
+                                    the institution and found out it was exactly what i needed at the time- the fact that the institution would provide the convenienece to learn and practise with real world
+                                    situation enticed me, the fact that they would train me on loan and guide me towards a professional career got me so much absolved, I courageously went through the 
+                                    strict recruitment phase; and the bootcamp, which was so fun but tough. I saw myself learning as much as possible in little time. 
+                                    Today i am a DECADEV! Looking forward to beating the world's problems by beating on my keyboard!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+                
+
+    <!--parallax of laptop for large screen-->
+
+    <!--Decagon and Reason for joining Decagon plus my aspiration-->
+
+
+
 </body>
 </html> 

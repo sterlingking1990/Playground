@@ -1,0 +1,35 @@
+.navbar-logo{
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+    background:#cccfff;
+    font-size: 35px;
+    padding: 5px 20px;
+}
+
+.make_circle{
+    border-radius: 50%;
+    width: 300px;
+    height: 1200px;
+    padding: 10px 20px;
+    background: green;
+
+}
+
+span{
+    padding: 5px 10px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('../image/mypic.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
