@@ -44,7 +44,29 @@ span{
 
 }
 
+#background{
+    background: url('../image/another_one.jpg');
+    background-repeat:no-repeat;
+    min-height: 500px;
+
+
+}
+
 #tabsJustified a:active{
     background-color:#abff99;
     color: white
+}
+
+#ContactForm input{
+    width:100%;
+
+}
+#ContactForm textarea{
+    width: 100%;
+}
+
+#ContactForm button{
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    
 }
