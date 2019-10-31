@@ -16,6 +16,8 @@
 
 }
 
+
+
 span{
     padding: 5px 10px;
 }
@@ -40,4 +42,9 @@ span{
     min-height: 500px;
 
 
+}
+
+#tabsJustified a:active{
+    background-color:#abff99;
+    color: white
 }

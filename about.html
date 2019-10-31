@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>My portfolio website</title>
 </head>
-<body>
+<body style="background-color: grey">
     
     <!--Nav bar -->
     <div id="header">
@@ -40,21 +40,160 @@
     <div id="bg-img"></div>
     <br/>
 
+
+    <div id="Education" class="mt-5">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <span id="span_ed" class="bg-dark text-white" style="margin-top:50px; padding:10px 20px 10px 20px">Education</span><hr class="bg-light" style="margin-top:8px;">
+                    <span id="span_ed" class="bg-dark text-white p-3">Education</span><hr class="bg-light">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6 sm-12">
                     <div class="card bg-white">
-                        <img src="./image/comp.png" width="200" height="80" class="img-fluid d-flex m-auto py-3"/>
+                        <img src="./image/ado.jpg" class="img-fluid d-flex m-auto py-3" width="200"/>
                         <h3 class="text-center text-success">National Diploma</h3>
                         <p class="lead text-justify p-3">I obtained my National Diploma in Computer Science and graduated with a distinction </p>
+                        <p class="lead text-justify p-3">I took up leadership position in the area of Librarian and President of the Department, during which i set up a tutorial unit known till date as Nacoss Tutorial Unit to help tutor freshmen
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 sm-12">
+                    <div class="card bg-white">
+                        <img src="./image/futa2.jpeg" class="img-fuild d-flex m-auto py-3" width="200" height="210"/>
+                        <h3 class="text-center text-success">Bachelor of Technology</h3>
+                        <p class="lead text-justify p-3">I obtained my BTECH in Computer Science from The Federal University of Technology Akure</p>
+                        <p class="lead text-justify p-3">My project involved solving University Timetable Scheduling Problem, which was later published in an International Journal of Computer Science</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-lg-6 sm-12">
+                    <div class="card bg-white">
+                        <img src="./image/yil.png" class="img-fluid d-flex m-auto py-3" width="200"/>
+                        <h3 class="text-center text-success">Young Innovation Leadership</h3>
+                        <p class="lead text-justify p-3">I obtained Fellowship in Innovation Leadership after 3 months intensive training on design thinking.</p>
+                        <p class="lead text-justify p-3">During the programme, my team and I carried out Capstone Project which involved Preservation of Cultural Heritage.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 sm-12">
+                    <div class="card bg-white">
+                        <img src="./image/deca.png" class="img-fluid d-flex m-auto py-3" width="200"/>
+                        <h3 class="text-center text-success">Decagon Engineering Institute</h3>
+                        <p class="lead text-justify p-3">I am currently enrolled as a software engineering student at Decagon</p>
+                        <p class="lead text-justify p-3">My aspiration is to become a professional software engineer who would solve numorous problems using technology</p>
                     </div>
                 </div>
             </div>
         </div>
+
+
+    <div id="Skills" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span class="bg-dark text-white p-3">Skills</span><hr class="bg-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 sm-12">
+                    <div class="card bg-white">
+                        <h3 class=" text-dark ml-3 my-1">JAVASCRIPT</h3>
+                        <div class="progress mx-3 my-3">
+                            <span class="progress-bar" style="width:90%">90</span>
+                        </div>
+                        <h3 class="ml-3 my-1 text-dark">REACTJS</h3>
+                        <div class="progress mx-3 my-3">
+                            <div class="progress-bar" style="width: 70%">70</div>
+                        </div>
+
+                        <h3 class="ml-3 my-1 text-dark">HTML5</h3>
+                        <div class="progress mx-3 my-3">
+                            <div class="progress-bar" style="width: 95%">95</div>
+                        </div>
+                        <h3 class="ml-3 my-1 text-dark">CSS3</h3>
+                        <div class="progress ml-3 my-3">
+                            <div class="progress-bar" style="width: 90%">90</div>
+                        </div>
+
+                        <h3 class="ml-3 my-1 text-dark">DATA VISUALIZATION(TABLEAU)</h3>
+                        <div class="progress ml-3 my-3">
+                            <div class="progress-bar" style="width: 80%">80</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Experience" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span class="bg-dark p-3 text-white" >EXPERIENCE</span><hr class="my-3 bg-light">
+                </div>
+            </div>
+
+            <ul id="tabsJustified" class="nav nav-tabs">
+                <li class="nav-item"><a href="" data-target="#Web" data-toggle="tab" class="nav-link text-dark">Web Development</a></li>
+                <li class="nav-item"><a href="" data-target="#Research" data-toggle="tab" class="nav-link text-dark">Research</a></li>
+                <li class="nav-item"><a href="" data-target="#Technical" data-toggle="tab" class="nav-link text-dark">Technical Writing</a></li>
+            </ul>
+
+            <div class="tab-content" id="tabsJustifiedContent">
+                <div id="Web" class="tab-pane active">
+                    <div class="card bg-white">
+                        <h2 class="ml-3 my-3">
+                            Built using JQUERY, HTML, CSS
+                        </h2>
+                        <a href="http://kinmorygame.herokuapp.com"><img class="img-fluid responsive" src="./image/wordmat.png"/></a>
+                        <h2 class="ml-3 my-3">BUILT USING REACTJS</h2>
+                        <a href="https://fruitmatch-df69a.firebaseapp.com"><img class="img-fluid responsive" src='./image/fruitmatch.png'/></a>
+                        <h2 class="ml-3 my-3">BUILT USING REACTJS</h2>
+                        <a href="https://xogame-343fa.firebaseapp.com"><img class="img-fluid responsive" src='./image/xogame.png' /></a>
+                    </div>
+                </div>
+
+                <div id="Research" class="tab-pane">
+                    <div class="card bg-white">
+                        <h2 class="ml-3 my-3">
+                            UNIVERSITY TIMETABLE SCEHDULING USING TABU-SEARCH METHOD
+                        </h2>
+                        <a href="https://www.ijcaonline.org/archives/volume181/number9/29799-2018917599"><img src="./image/research.png" alt="research_paper"/></a>
+                    </div>
+
+                </div>
+
+                <div id="Technical" class="tab-pane">
+                    <div class="card bg-white">
+                        <h2 class="ml-3 my-3">
+                            FAVOURITED READ BY MEDIUM
+                        </h2>
+                        <a href="https://medium.com/design-and-tech-co/living-the-commission-of-tim-bernees-lee-connecting-shared-conceptualization-d03d2d1fc09e"><img src="./image/medium.png"
+                                alt="research_paper" /></a>
+                    </div>
+                
+                </div>
+
+
+            </div>
+         
+        </div>
+    </div>
+
+    <div id="Footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <p class="lead text-white text-center y-3 my-3 bg-dark">Portofolio 2019</p>
+            </div>
+
+        </div>
+    </div>
+
+
 
 </body>
